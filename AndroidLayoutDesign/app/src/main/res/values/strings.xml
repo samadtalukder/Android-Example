@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android Linear Layout Design</string>
+    <string name="deposti">জমা</string>
+    <string name="expense">খরচ</string>
+    <string name="debit">ডেবিট</string>
+    <string name="credit">ক্রেডিট</string>
+    <string name="balance">মোট হিসাব নিকাশ</string>
+    <string name="daily_history">দৈনিক ইতিহাস</string>
+    <string name="monthly_history">মাসিক ইতিহাস</string>
+    <string name="yearly_history">বাৎসরিক ইতিহাস</string>
+</resources>
