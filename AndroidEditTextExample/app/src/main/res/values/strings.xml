@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android EditText Example</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="enter_fullName">Enter Full Name</string>
+    <string name="click_btn">Show Result</string>
+    <string name="enter_text">Enter Text</string>
+</resources>
