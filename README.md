@@ -1,6 +1,7 @@
 # Android-Example
 --------------------
  * Hello World
+ * Android Activity Life Cycle
  * Android Custom Toast
  * Android Layout Design Sample
  * Android Table Layout
