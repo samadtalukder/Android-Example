@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Android Recyclerview Scrolling Example</string>
+    <string name="recyclerview_vertical_scrolling">RecyclerView Vertical Scrolling</string>
+    <string name="recyclerview_horizontal_scrolling">RecyclerView Horizontal Scrolling</string>
+    <string name="hello">Hello</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="_25_sep">25 Sep</string>
+    <string name="mail_content">Mail Content</string>
+    <string name="email_sender">Email Sender</string>
+    <string name="email_title">Email Title</string>
+    <string name="a">A</string>
+</resources>

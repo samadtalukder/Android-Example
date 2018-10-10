@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_8dp"
+    android:layout_marginEnd="@dimen/margin_15dp"
+    android:layout_marginRight="@dimen/margin_15dp"
+    android:layout_marginBottom="@dimen/margin_8dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_middle"
+            android:layout_width="@dimen/item_vertical_width"
+            android:layout_height="@dimen/item_vertical_height"
+            android:gravity="center"
+            android:background="@drawable/round_button"
+            android:text="T"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="@dimen/item_vertical_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_middle"
+            android:background="@color/text_bg"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/hello"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView><!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_8dp"
+    android:layout_marginRight="@dimen/margin_15dp"
+    android:layout_marginTop="@dimen/margin_8dp"
+    android:orientation="vertical"
+    android:layout_marginEnd="@dimen/margin_15dp">
+
+    <TextView
+        android:id="@+id/tv_middle"
+        android:layout_width="@dimen/item_vertical_width"
+        android:layout_height="@dimen/item_vertical_height"
+        android:background="@drawable/circle_purple"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        tools:text="T" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="@dimen/item_vertical_width"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/text_bg"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_below="@+id/tv_middle"
+        />
+
+</RelativeLayout>-->
