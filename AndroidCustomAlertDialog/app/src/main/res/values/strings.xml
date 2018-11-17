@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android Custom AlertDialog</string>
+    <string name="success">Success</string>
+    <string name="dialog_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu erat tincidunt lacus fermentum rutrum.</string>
+    <string name="ok">OK</string>
+    <string name="success_dialog">Success Dialog</string>
+    <string name="error_dialog">Error Dialog</string>
+    <string name="dialog_title">Dialog Title</string>
+    <string name="cancel">Cancel</string>
+</resources>

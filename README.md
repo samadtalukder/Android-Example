@@ -13,5 +13,6 @@
  * Android RecyclerView Nested Scrolling Example
  * Android Circular ProgressBar
  * Android Simple Google Maps
+ * Android Custom Alert Dialog
 
  
