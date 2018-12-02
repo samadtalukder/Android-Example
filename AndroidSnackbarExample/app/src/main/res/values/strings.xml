@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Snackbar Example</string>
+    <string name="normal_snack_bar">Normal Snack Bar</string>
+    <string name="action_snack_bar">Action Snack Bar</string>
+    <string name="custom_snack_bar_with_action">Custom Snack Bar With Action</string>
+    <string name="show_snackbar_here">Show Snackbar Here</string>
+    <string name="this_is_a_custom_snackbar">This is a custom snackbar.</string>
+    <string name="custom_snack_bar_2_different_actions">Custom Snack bar 2 different actions</string>
+</resources>
