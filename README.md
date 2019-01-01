@@ -16,6 +16,7 @@
  * Android Custom Alert Dialog
  * Android Snackbar Example
  * Android Alert Dialog Example
+ * Android Collapsing Toolbar Example
 
 
  
