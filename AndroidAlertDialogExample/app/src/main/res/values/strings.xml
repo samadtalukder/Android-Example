@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Alert Dialog Example</string>
+    <string name="desc">Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="ok">OK</string>
+    <string name="content_will_be_here">Your info text goes here.</string>
+    <string name="dialog_title_will_be_here">Dialog Title will be here</string>
+</resources>

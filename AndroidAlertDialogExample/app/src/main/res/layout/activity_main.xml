@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAlertDialogOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show One Alert Dialog Button" />
+
+    <Button
+        android:id="@+id/btnAlertDialogTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Show Two Alert Dialog Button" />
+
+    <Button
+        android:id="@+id/btnAlertDialogThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Three Alert Dialog Button" />
+    <Button
+        android:id="@+id/btnAlertDialogWithRadioBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Radio button list Alert Dialog" />
+    <Button
+        android:id="@+id/btnAlertDialogWithCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Checkbox list Alert Dialog" />
+    <Button
+        android:id="@+id/btnAlertDialogUploadAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Upload Action Alert Dialog" />
+    <Button
+        android:id="@+id/btnAlertDialogInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Info Alert Dialog" />
+
+</LinearLayout>
