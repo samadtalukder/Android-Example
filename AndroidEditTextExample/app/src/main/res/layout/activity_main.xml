@@ -9,9 +9,22 @@
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/anotherExampleBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_10"
+                    android:padding="@dimen/padding_10"
+                    android:text="@string/show_another_example" />
+            </LinearLayout>
 
             <EditText
                 android:id="@+id/fullName_edtxt"
@@ -68,25 +81,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin_10"
-                android:hint="Plain Text Input"
+                android:hint="@string/plain_text_input"
                 android:inputType="text"
                 android:padding="@dimen/padding_10" />
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Set MaxLegth of 5 for EditText:" />
+                android:text="@string/set_maxlegth_of_5_for_edittext" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:maxLength="5">
-            </EditText>
+                android:maxLength="5"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin_10"
-                android:hint="Password Input"
+                android:hint="@string/password_input"
                 android:inputType="textPassword"
                 android:padding="@dimen/padding_10" />
 
@@ -94,7 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin_10"
-                android:hint="Email Address Input"
+                android:hint="@string/email_address_input"
                 android:inputType="textEmailAddress"
                 android:padding="@dimen/padding_10" />
 
@@ -102,7 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin_10"
-                android:hint="Phone Number Input"
+                android:hint="@string/phone_number_input"
                 android:inputType="phone"
                 android:padding="@dimen/padding_10" />
 
@@ -110,7 +123,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin_10"
-                android:hint="Number Input"
+                android:hint="@string/number_input"
                 android:inputType="number"
                 android:padding="@dimen/padding_10" />
 
@@ -118,7 +131,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin_10"
-                android:hint="Signed Number Input"
+                android:hint="@string/signed_number_input"
                 android:inputType="numberSigned"
                 android:padding="@dimen/padding_10" />
 
@@ -126,9 +139,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin_10"
-                android:hint="Decimal Number Input"
+                android:hint="@string/decimal_number_input"
                 android:inputType="numberDecimal"
                 android:padding="@dimen/padding_10" />
         </LinearLayout>
+
+
     </ScrollView>
 </LinearLayout>

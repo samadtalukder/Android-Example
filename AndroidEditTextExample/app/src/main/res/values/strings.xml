@@ -4,4 +4,18 @@
     <string name="enter_fullName">Enter Full Name</string>
     <string name="click_btn">Show Result</string>
     <string name="enter_text">Enter Text</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="login">Login</string>
+    <string name="type_something">Type Something....</string>
+    <string name="set_maxlegth_of_5_for_edittext">Set MaxLegth of 5 for EditText:</string>
+    <string name="password_input">Password Input</string>
+    <string name="email_address_input">Email Address Input</string>
+    <string name="phone_number_input">Phone Number Input</string>
+    <string name="number_input">Number Input</string>
+    <string name="signed_number_input">Signed Number Input</string>
+    <string name="decimal_number_input">Decimal Number Input</string>
+    <string name="show_another_example">Show Another Example</string>
+    <string name="plain_text_input">Plain Text Input</string>
 </resources>

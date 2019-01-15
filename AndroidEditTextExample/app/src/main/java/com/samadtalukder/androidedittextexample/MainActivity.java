@@ -1,5 +1,6 @@
 package com.samadtalukder.androidedittextexample;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
@@ -11,9 +12,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private EditText fullNameEdtTxt,ageEdtTxt;
+    private EditText fullNameEdtTxt, ageEdtTxt;
     private EditText editText;
-    private Button clickBtn;
+    private Button clickBtn, anotherExampleBtn;
     private TextView showText;
 
     @Override
@@ -24,6 +25,13 @@ public class MainActivity extends AppCompatActivity {
         fullNameEdtTxt = findViewById(R.id.fullName_edtxt);
         ageEdtTxt = findViewById(R.id.age_edtxt);
         clickBtn = findViewById(R.id.click_btn);
+        anotherExampleBtn = findViewById(R.id.anotherExampleBtn);
+        anotherExampleBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, AnotherActivity.class));
+            }
+        });
         editText = findViewById(R.id.edtxt);
         showText = findViewById(R.id.show_text);
 
@@ -41,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 String editTextOutput = editText.getText().toString();
-                showText.setText("You Type: "+editTextOutput);
+                showText.setText("You Type: " + editTextOutput);
                 //Toast.makeText(MainActivity.this, ""+editText.getText().toString(), Toast.LENGTH_SHORT).show();
             }
         });
@@ -58,11 +66,10 @@ public class MainActivity extends AppCompatActivity {
         String fullName = fullNameEdtTxt.getText().toString();
         String age = ageEdtTxt.getText().toString();
 
-        if (fullNameEdtTxt.getText().toString().trim().isEmpty() && ageEdtTxt.getText().toString().trim().isEmpty()){
+        if (fullNameEdtTxt.getText().toString().trim().isEmpty() && ageEdtTxt.getText().toString().trim().isEmpty()) {
             Toast.makeText(this, "Input Field Is Empty", Toast.LENGTH_SHORT).show();
-        }
-        else {
-            Toast.makeText(this,"Full Name: "+fullName+"\nAge: "+String.valueOf(age),Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, "Full Name: " + fullName + "\nAge: " + String.valueOf(age), Toast.LENGTH_SHORT).show();
         }
     }
 }
