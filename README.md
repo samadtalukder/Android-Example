@@ -11,6 +11,7 @@
  * [Android EditText Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidEditTextExample/app)
  * [Android Button Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidButtonExample/app)
  * [Android Toggle Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidToggleButtonExample/app)
+ * [Android CheckBox Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidCheckBoxExample/app)
  * [Android Spinner Array Adapter](https://github.com/samadtalukder/Android-Example/tree/master/AndroidBasicSpinnerArrayAdapter/app)
  * [Android Loading Dialog Animation Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidLoadingDialogAnimation/app)
  * [Android RecyclerView Nested Scrolling Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidRecyclerviewScrollingExample/app)
