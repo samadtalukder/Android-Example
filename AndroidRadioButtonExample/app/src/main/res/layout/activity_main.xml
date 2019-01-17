@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Payment Option" />
+
+        <RadioGroup
+            android:id="@+id/categoryRG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/cashRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash On Delivery" />
+
+            <RadioButton
+                android:id="@+id/cardRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Card On Delivery" />
+
+            <RadioButton
+                android:id="@+id/onlineRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Online Payment" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Count Down:" />
+
+            <TextView
+                android:id="@+id/countResultTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="000"
+                android:textAlignment="textEnd"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/countRG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/countUpRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Count Up" />
+
+            <RadioButton
+                android:id="@+id/countDownRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Count Down" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/countButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count" />
+    </LinearLayout>
+
+
+</LinearLayout>
