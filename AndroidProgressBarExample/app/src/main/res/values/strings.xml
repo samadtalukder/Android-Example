@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android ProgressBar Example</string>
+    <string name="downloading">Download</string>
+</resources>
