@@ -15,6 +15,7 @@
  * [Android RadioButton Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidRadioButtonExample/app)
  * [Android ProgressBar Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidProgressBarExample/app)
  * [Android CheckedTextView Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidCheckedTextviewExample/app)
+ * [Android SeekBar Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidSeekBarExample/app)
  * [Android Spinner Array Adapter](https://github.com/samadtalukder/Android-Example/tree/master/AndroidBasicSpinnerArrayAdapter/app)
  * [Android Loading Dialog Animation Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidLoadingDialogAnimation/app)
  * [Android RecyclerView Nested Scrolling Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidRecyclerviewScrollingExample/app)

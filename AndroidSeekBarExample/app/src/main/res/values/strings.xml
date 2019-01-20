@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android SeekBar Example</string>
+    <string name="app_font_size">App Font Size :</string>
+    <string name="progress">Progress:</string>
+    <string name="distance">Distance</string>
+    <string name="_0_8km">0-8Km</string>
+</resources>
