@@ -18,7 +18,6 @@
  * [Android SeekBar Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidSeekBarExample/app)
  * [Android Spinner Array Adapter](https://github.com/samadtalukder/Android-Example/tree/master/AndroidBasicSpinnerArrayAdapter/app)
  * [Android Loading Dialog Animation Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidLoadingDialogAnimation/app)
- * [Android RecyclerView Nested Scrolling Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidRecyclerviewScrollingExample/app)
  * [Android Circular ProgressBar](https://github.com/samadtalukder/Android-Example/tree/master/AndroidCircularProgressBar/app)
  * [Android Simple Google Maps](https://github.com/samadtalukder/Android-Example/tree/master/AndroidGoogleMaps/app)
  * [Android Custom Alert Dialog](https://github.com/samadtalukder/Android-Example/tree/master/AndroidCustomAlertDialog/app)
@@ -27,6 +26,8 @@
  * [Android Collapsing Toolbar Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidCollapsingToolbarExample/app)
  * [Android Add Item To Spinner Dynamically Using Edittext](https://github.com/samadtalukder/Android-Example/tree/master/AddItemToSpinnerDynamicallyUsingEdittextInAndroid/app)
 * [Android Custom Toast](https://github.com/samadtalukder/Android-Example/tree/master/AndroidCustomToastExample/app)
+* [Android RecyclerView Nested Scrolling Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidRecyclerviewScrollingExample/app)
+* [Android RecyclerView Multiple ViewHolders](https://github.com/samadtalukder/Android-Example/tree/master/AndroidRecyclerViewMultipleViewHolders/app)
  
 
 
