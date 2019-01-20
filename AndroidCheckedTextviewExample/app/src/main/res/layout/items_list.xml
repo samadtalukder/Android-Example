@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <CheckedTextView
+        android:id="@+id/checkedItemTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:checked="false"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="Checked Text View Example"
+        android:textColor="#000" />
+
+</LinearLayout>
