@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Slider Example"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/lyt_cart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:clipToPadding="false"
+            android:visibility="visible"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="1dp"
+            app:cardUseCompatPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/viewPager"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+
+                    <ImageButton
+                        android:id="@+id/bt_previous"
+                        android:layout_width="20dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@color/darkOverlaySoft"
+                        android:src="@drawable/ic_arrow_left" />
+
+                    <ImageButton
+                        android:id="@+id/bt_next"
+                        android:layout_width="20dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@color/darkOverlaySoft"
+                        android:src="@drawable/ic_arrow_right" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/grey_10" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+                    <LinearLayout
+                        android:id="@+id/indicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</LinearLayout><!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" />
+
+</LinearLayout>-->

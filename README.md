@@ -28,6 +28,7 @@
 * [Android Custom Toast](https://github.com/samadtalukder/Android-Example/tree/master/AndroidCustomToastExample/app)
 * [Android TabLayout With ViewPager Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidTabLayoutWithViewPagerExample/app)
 * [Android RecyclerView Nested Scrolling Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidRecyclerviewScrollingExample/app)
+* [Android ViewPager With CustomPagerAdapter Image Slider Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidViewPagerWithCustomPagerAdapter/app)
 * [Android RecyclerView Multiple ViewHolders](https://github.com/samadtalukder/Android-Example/tree/master/AndroidRecyclerViewMultipleViewHolders/app)
 * [Android YouTube Video Play](https://github.com/samadtalukder/Android-Example/tree/master/AndroidYouTubeVideoPlay/app)
 * [Android ToolBar Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidToolBarExample/app)
