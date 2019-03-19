@@ -32,6 +32,7 @@
 * [Android RecyclerView Multiple ViewHolders](https://github.com/samadtalukder/Android-Example/tree/master/AndroidRecyclerViewMultipleViewHolders/app)
 * [Android YouTube Video Play](https://github.com/samadtalukder/Android-Example/tree/master/AndroidYouTubeVideoPlay/app)
 * [Android ToolBar Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidToolBarExample/app)
+* [Android Chart Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidChartExample/app)
  
 
 
