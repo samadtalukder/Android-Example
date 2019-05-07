@@ -4,7 +4,7 @@
  1. [Android Activity Life Cycle](https://github.com/samadtalukder/Android-Example/tree/master/AndroidActivityLifeCycle/app/src/main)
  1. [Android Layout Design Sample](https://github.com/samadtalukder/Android-Example/tree/master/AndroidLayoutDesign/app/src/main)
  1. [Android Linear Layout Example Simply & Programmatically](https://github.com/samadtalukder/Android-Example/tree/master/AndroidLinearLayout/app/src/main)
- 1. [Android Linear Layout List Dynamicly](https://github.com/samadtalukder/Android-Example/tree/master/DynamicAndroidLinearLayoutList/app/src/main)
+ 1. [Android Linear Layout List Dynamicly](https://github.com/samadtalukder/Android-Example/tree/master/AndroidLinearLayoutListDynamicly/app/src/main)
  1. [Android Table Layout](https://github.com/samadtalukder/Android-Example/tree/master/AndroidTablelayoutExample/app/src/main)
  1. [Android Create CardView Programmatically](https://github.com/samadtalukder/Android-Example/tree/master/AndroidCreateCardViewprogrammatically/app/src/main)
  1. [Android TextView Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidTextViewExample/app/src/main)
@@ -33,7 +33,8 @@
 1. [Android YouTube Video Play](https://github.com/samadtalukder/Android-Example/tree/master/AndroidYouTubeVideoPlay/app/src/main)
 1. [Android ToolBar Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidToolBarExample/app/src/main)
 1. [Android Chart Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidChartExample/app/src/main)
- 
+1. [Android SharedPreferences Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidSharedPreferencesExample/app/src/main)
+
 
 
  
