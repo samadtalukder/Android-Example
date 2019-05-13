@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android RecyclerView With ButterKnife</string>
+    <string name="book_name">The Light Between Oceans</string>
+    <string name="author">by M.L Stedman</string>
+</resources>
