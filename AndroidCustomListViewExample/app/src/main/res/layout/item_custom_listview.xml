@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/appIconIV"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/androidVersionNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/appIconIV"
+        android:layout_toRightOf="@+id/appIconIV"
+        android:maxLines="1"
+        android:text="Android Version Name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/androidVersionTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/androidVersionNameTV"
+        android:layout_alignStart="@+id/androidVersionNameTV"
+        android:layout_alignLeft="@+id/androidVersionNameTV"
+        android:maxLines="1"
+        android:text="Android Version"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>
