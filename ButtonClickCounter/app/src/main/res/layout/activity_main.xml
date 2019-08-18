@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnEnter"
+        android:layout_width="93dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Enter"
+        app:layout_constraintRight_toRightOf="@+id/activity_main"
+        app:layout_constraintTop_toTopOf="@+id/activity_main" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
+        app:layout_constraintRight_toLeftOf="@+id/btnEnter"
+        app:layout_constraintTop_toTopOf="@+id/activity_main" />
+
+    <TextView
+        android:id="@+id/tvShowName"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:scrollIndicators="right|end"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_main"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
+        app:layout_constraintRight_toRightOf="@+id/activity_main"
+        app:layout_constraintTop_toBottomOf="@+id/etName"
+        app:layout_constraintVertical_bias="0.0"
+        tools:targetApi="m" />
+</androidx.constraintlayout.widget.ConstraintLayout>
