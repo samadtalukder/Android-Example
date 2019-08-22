@@ -40,6 +40,7 @@
 1. [Android Custom ListView Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidCustomListViewExample/app/src/main)
 1. [Android MVP Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidMVPExample/app/src/main)
 1. [Button Click Counter Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidMVPExample/app/src/main)
+1. [Android SwipeRefresh Layout Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidSwipeRefreshLayoutExample/app/src/main)
 
 
 
