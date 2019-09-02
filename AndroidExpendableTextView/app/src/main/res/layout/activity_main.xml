@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="@string/app_name"
+            android:textColor="#fff" />
+        <ImageView
+            android:id="@+id/ivDown"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_arrow_downward_black_24dp"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/ivUp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_arrow_upward_black_24dp"
+            android:visibility="gone"
+            android:clickable="true" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+
+        android:padding="15dp"
+        android:visibility="gone"
+        android:text="@string/app_content"
+        android:textColor="#000000" />
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/plus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/description_text"
+            android:background="@drawable/ic_arrow_downward_black_24dp"
+            android:clickable="true" />
+
+
+        <ImageButton
+            android:id="@+id/minus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/description_text"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_arrow_upward_black_24dp"
+            android:clickable="true"
+            android:visibility="gone" />
+
+    </LinearLayout>-->
+
+
+</LinearLayout>

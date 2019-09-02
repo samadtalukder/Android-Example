@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android Expendable TextView</string>
+    <string name="app_content">We have seen few apps giving a pin to login instead of username and password mainly in banking sector, and few more because it makes user login much simpler.In our next android studio login activity tutorial  we will be dealing with pin based login but for this tutorial  we will be dealing with autocomplete user selection.
+        What ever the style of login we need to take care of user authentication, i,e, the most important factor for an app</string>
+</resources>

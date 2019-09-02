@@ -42,6 +42,8 @@
 1. [Button Click Counter Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidMVPExample/app/src/main)
 1. [Android SwipeRefresh Layout Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidSwipeRefreshLayoutExample/app/src/main)
 1. [Pick Image From Gallery Or Camera In Android](https://github.com/samadtalukder/Android-Example/tree/master/PickImageFromGalleryOrCameraInAndroid/app/src/main)
+1. [Android Expendable TextView Example](https://github.com/samadtalukder/Android-Example/tree/master/AndroidExpendableTextView/app/src/main)
+1. [Android Custom Listview Populating Data From ArrayList](https://github.com/samadtalukder/Android-Example/tree/master/AndroidCustomListviewPopulatingDataFromArrayList/app/src/main)
 
 
 
