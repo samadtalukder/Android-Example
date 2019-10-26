@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Generate random number in a range'
