@@ -18,7 +18,7 @@ import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String url = "http://api.openweathermap.org/data/2.5/weather?q=London&mode=json&appid=6a088729cd89036ea1d745ed1e93871d";
+    private String url = "http://api.openweathermap.org/data/2.5/weather?q=London&mode=json&appid=INSERT_KEY";
     private TextView tvWeatherType;
 
     @Override
