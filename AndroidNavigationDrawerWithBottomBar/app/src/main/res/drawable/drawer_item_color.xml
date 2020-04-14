@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- This is used when the Navigation Item is checked -->
+    <item android:color="#005481" android:state_checked="true" />
+    <item android:color="#005481" android:state_pressed="true"/>
+    <item android:color="#005481" android:state_activated="true"/>
+    <!-- This is the default text color -->
+    <item android:color="#525252" />
+</selector>
